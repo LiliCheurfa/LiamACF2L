@@ -1,0 +1,231 @@
+/* Couleurs */
+:root {
+    --light-bg: #E2E9C3;
+    --dark-bg: #080708;
+    --text-light: #FFF8F6;
+    --text-dark: #3C0919;
+    --secondary-bg: #534646;
+}
+
+/* Polices d'écriture */
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--text-dark);
+    background-color: var(--dark-bg); 
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--light-bg);
+    font-family: 'Kufam', sans-serif;
+    position: sticky; 
+    top: 0;
+    z-index: 1000; 
+}
+
+.navbar-nav .nav-link {
+    color: var(--text-dark) !important;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--secondary-bg) !important;
+}
+
+.navbar-logo {
+    position: absolute;
+    right: 20px;
+}
+
+.navbar-logo-img {
+    width: 60px;
+    height: auto;
+}
+
+/* Hero Section */
+.hero, .hero3 {
+    background-size: cover;
+    background-position: center;
+    color: var(--text-light);
+    padding: 100px 0;
+    font-size: 1.5rem;
+    position: relative;
+    z-index: 1; 
+}
+
+.hero h1, .hero3 h1 {
+    font-weight: bold;
+    font-family: 'Kufam', sans-serif;
+}
+
+/* Section Présentation de l'association */
+.association {
+    background-color: var(--secondary-bg);
+    color: var(--text-light);
+    padding: 60px 0;
+}
+
+.association h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+    font-family: 'Kufam', sans-serif;
+}
+
+/* Section Contact */
+.contact {
+    background-color: var(--dark-bg);
+    color: var(--text-light);
+    padding: 60px 0;
+}
+
+.contact h2 {
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+    font-family: 'Kufam', sans-serif;
+}
+
+.contact-box {
+    padding: 20px;
+    background-color: #323232;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-icon {
+    font-size: 2rem;
+    color: var(--light-bg);
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Section Offres */
+.offres-section {
+    background-color: var(--dark-bg);
+    color: var(--text-light);
+    padding: 60px 0;
+}
+
+.offre-card {
+    background-color: var(--text-light);
+    border-radius: 10px;
+}
+
+.offre-card .card-body {
+    padding: 20px;
+}
+
+.offre-card h5.card-title {
+    font-family: 'Kufam', sans-serif;
+    color: var(--text-dark);
+    font-size: 1.5rem;
+}
+
+.offre-card .card-text {
+    font-size: 1rem;
+    color: var(--secondary-bg);
+}
+
+.offre-card .btn-custom {
+    background-color: var(--text-dark);
+    color: var(--text-light);
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: 'Kufam', sans-serif;
+}
+
+.offre-card .btn-custom:hover {
+    background-color: var(--secondary-bg);
+}
+
+/* Section Activités */
+.activites-section {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: var(--dark-bg); /* Conserve le fond sombre */
+    color: var(--text-light);
+}
+
+.banner-activites {
+    position: relative;
+    text-align: center;
+    color: var(--text-light);
+    z-index: 1;
+}
+
+.banner-activites .banner-img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.banner-activites .banner-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Kufam', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Activités */
+.activites-card {
+    background-color: var(--text-light);
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.activites-card .icon-activity {
+    font-size: 4rem;
+    color: var(--secondary-bg);
+}
+
+.activites-card .card-text {
+    color: var(--text-dark);
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.activites-card ul {
+    margin: 15px 0;
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.activites-card ul li {
+    margin-bottom: 5px;
+    color: var(--secondary-bg);
+}
+
+/*  Resources  */
+.pedagogical-resources {
+    background-color: var(--dark-bg);
+    padding: 40px 0; 
+    color: var(--text-light);
+}
+
+.pedagogical-resources .pedagogical-icon {
+    font-size: 3rem; 
+    color: var(--light-bg);
+    margin-bottom: 10px;
+}
+
+.resources-content {
+    background-color: #F5F1E3;
+    color: var(--dark-bg);
+    padding: 15px; 
+    border-radius: 8px;
+    font-size: 1rem;
+    text-align: left;
+    max-width: 800px; }
